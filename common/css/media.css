@@ -1,0 +1,511 @@
+    @media only screen and (min-width: 768px) and (max-width: 980px) {
+        .contactHead {
+            display: none;
+        }
+    }
+    /* Smartphone */
+    
+    @media only screen and (min-width: 768px) and (max-width: 1030px) {
+        .boxGuide .btnCont {
+            width: 81%;
+        }
+    }
+    
+    @media only screen and (min-width: 768px) {
+        .subMenu {
+            display: none;
+        }
+    }
+    
+    @media only screen and (max-width: 767px) {
+        .lstSer li img.hover {
+            display: none;
+        }
+        .headBar {
+            display: none;
+        }
+        .rightHead {
+            display: none;
+        }
+        #sliderTop .text {
+            width: 80%;
+        }
+        #header {
+            padding: 0;
+        }
+        #sliderTop .text h2 {
+            font-size: 25px;
+            margin-bottom: 15px;
+        }
+        #sliderTop .desc {
+            font-size: 12px;
+        }
+        #sliderTop .desc div {
+            text-align: center !important;
+        }
+        #sliderTop .text .btn {
+            font-size: 12px;
+            padding: 15px 0;
+            margin-top: 20px;
+        }
+        .wrap15 {
+            padding: 0 15px;
+        }
+        .aboutTop {
+            padding: 50px 30px;
+            text-align: center !important;
+            margin-bottom: 65px;
+            margin-top: -45px;
+        }
+        .aboutTop .desc {
+            line-height: 1.8;
+            font-size: 12px;
+        }
+        .textTop01 {
+            font-size: 12px;
+        }
+        .lstSer li {
+            width: 48%;
+        }
+        .h2_page {
+            font-size: 20px;
+            margin-bottom: 20px;
+            line-height: 1.4;
+        }
+        .boxLink {
+            width: 100%;
+        }
+        .leftFoot,
+        .rightFoot {
+            width: 100%;
+        }
+        .footerInner {
+            display: block;
+            padding: 40px 15px;
+        }
+        .leftFoot {
+            line-height: 1.8;
+        }
+        .rightFoot {
+            padding-top: 30px;
+            margin-top: 30px;
+            border-top: 1px solid #4d4d4d;
+            text-align: left;
+        }
+        .lstSer li img.ori {
+            transform: translateX(0);
+        }
+        .lstSer li {
+            padding: 20px;
+        }
+        .lstSer li:hover {
+            background: #fff;
+        }
+        .lstSer li:hover img.ori {
+            opacity: 1;
+        }
+        .lstSer li:hover a {
+            color: #444;
+        }
+        .head_Sub {
+            padding: 30px 0;
+        }
+        .head_Sub #header {
+            position: relative;
+            top: auto;
+        }
+        .bread {
+            margin-top: 10px;
+        }
+        .head_Sub {
+            margin-top: 50px;
+        }
+        .head_Sub h2 {
+            font-size: 25px;
+        }
+        .aboutBox {
+            margin: 50px 0 30px;
+            flex-direction: column-reverse;
+            flex-wrap: wrap;
+        }
+        .aboutBox .imgAbout,
+        .descAbout {
+            width: 100%;
+            margin: 10px 0;
+        }
+        .descAbout .detail {
+            font-size: 12px;
+        }
+        .descAbout .title {
+            font-size: 17px;
+        }
+        .bgAbout h3 {
+            font-size: 20px;
+        }
+        .bgAbout .desc {
+            font-size: 12px;
+            margin-bottom: 30px;
+        }
+        .lstAbout {
+            width: 100%;
+            font-size: 12px;
+        }
+        .lstAbout li {
+            padding-left: 25px;
+            width: 100%;
+            font-size: 16px;
+        }
+        .lstAbout li span {
+            left: 10px;
+        }
+        .imgSha {
+            width: calc(100% - 30px);
+        }
+        #about .head_Sub {
+            background: url('../../img/subpage/head_about@sp.jpg') no-repeat left top;
+            background-size: cover;
+        }
+        #contact .head_Sub {
+            background: url('../../img/subpage/head_contact@sp.jpg') no-repeat center top;
+            background-size: cover;
+        }
+        #news .head_Sub {
+            background: url('../../img/subpage/head_news@sp.jpg') no-repeat center top;
+            background-size: cover;
+        }
+        #guide .head_Sub {
+            background: url('../../img/subpage/head_guide@sp.jpg') no-repeat center top;
+            background-size: cover;
+        }
+        #library .head_Sub {
+            background: url('../../img/subpage/head_library@sp.jpg') no-repeat center top;
+            background-size: cover;
+        }
+        #career .head_Sub {
+            background: url('../../img/subpage/head_career@sp.jpg') no-repeat center top;
+            background-size: cover;
+        }
+        #document .head_Sub {
+            background: url('../../img/subpage/head_document@sp.jpg') no-repeat center top;
+            background-size: cover;
+        }
+        #services .head_Sub {
+            background: url('../../img/subpage/head_services@sp.jpg') no-repeat center top;
+            background-size: cover;
+        }
+        .leftContact,
+        .rightContact {
+            width: 100%;
+        }
+        .flexBox--none {
+            display: block;
+        }
+        .txtCont {
+            font-size: 14px;
+        }
+        .infoCont {
+            font-size: 12px;
+            line-height: 1.8;
+        }
+        .lstNews {
+            margin-top: 0px;
+        }
+        .lstNews li {
+            display: block;
+            padding: 40px 0;
+            font-size: 12px;
+        }
+        .lstNews li .thumb,
+        .lstNews li .overflow {
+            width: 100%;
+        }
+        .lstNews li .thumb {
+            margin-bottom: 20px;
+        }
+        .lstNews li .overflow .title {
+            font-size: 18px;
+        }
+        .thumbNews {
+            margin-top: 40px;
+        }
+        .thumbNews img {
+            width: 100%;
+        }
+        .titleDetail {
+            font-size: 18px;
+            margin: 25px 0 20px;
+        }
+        .newsContent {
+            font-size: 12px;
+        }
+        .naviPage {
+            margin: 45px 0 70px;
+        }
+        .lstAnchor {
+            align-items: stretch;
+            margin: 30px 0 45px;
+        }
+        #guide .lstAnchor li {
+            display: flex;
+            align-items: center;
+        }
+        .lstAnchor li a {
+            font-size: 13px;
+            letter-spacing: 0;
+        }
+        #guide .lstAnchor li a {
+            padding-bottom: 15px;
+            display: block;
+            width: 100%;
+            text-align: center;
+            padding-right: 0;
+        }
+        #guide .lstAnchor li a::before {
+            background: url(../../img/subpage/arrows@prev.svg) no-repeat left center;
+            -webkit-transform: rotate(-90deg);
+            -moz-transform: rotate(-90deg);
+            -ms-transform: rotate(-90deg);
+            -o-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+            top: inherit;
+            bottom: 0;
+            left: 50%;
+            margin-left: -5px;
+        }
+        .tblGuide th,
+        .tblGuide tr td {
+            display: block;
+            width: 100%;
+            font-size: 12px;
+        }
+        .tblGuide tr td {
+            padding-bottom: 15px;
+        }
+        .tblGuide+.txtGuide {
+            margin-top: 0;
+        }
+        .imgGuide {
+            margin: 40px 0 65px;
+        }
+        .txtGuide {
+            font-size: 12px;
+        }
+        .lstGuide li {
+            font-size: 12px;
+            padding-left: 20px;
+        }
+        .boxGuide {
+            display: block;
+            padding-top: 45px;
+            padding-bottom: 45px;
+            margin-bottom: 65px;
+        }
+        .boxGuide .left,
+        .boxGuide .right {
+            width: 100%;
+            border: none;
+            text-align: left;
+        }
+        .boxGuide h5 {
+            font-size: 19px;
+        }
+        .boxGuide .left {
+            font-size: 12px;
+            margin-bottom: 30px;
+        }
+        .boxGuide .phoneNumb {
+            font-size: 20px;
+            letter-spacing: 2px;
+        }
+        .boxGuide .btnCont {
+            width: 50%;
+        }
+        .wrapTbl {
+            overflow-x: auto;
+            overflow-y: auto;
+            height: 550px;
+        }
+        .tblGuide02 {
+            width: 1000px;
+            margin: 0;
+            font-size: 12px;
+        }
+        .tblGuide th em {
+            font-style: normal;
+            font-weight: normal;
+            float: right;
+            width: 40%;
+        }
+        .tblGuide th em strong {
+            margin-left: 0;
+        }
+        /* width */
+         ::-webkit-scrollbar {
+            width: 5px;
+        }
+        /* Track */
+         ::-webkit-scrollbar-track {
+            background: #f2f2f2;
+        }
+        /* Handle */
+         ::-webkit-scrollbar-thumb {
+            background: #0c77f8;
+            width: 5px;
+            border-radius: 10px;
+        }
+        /* Handle on hover */
+         ::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+        .lstJobDesc {
+            margin: 20px 0 50px;
+        }
+        .lstJobDesc li {
+            width: 100%;
+            font-size: 14px;
+            margin-top: 10px;
+        }
+        .lstJob .jobTitle {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        .lstJob .jobDesc {
+            padding: 0;
+        }
+        .lstJob .jobDesc .jobHead {
+            font-size: 14px;
+        }
+        .lstJob .jobDesc .jobContent {
+            font-size: 12px;
+        }
+        .lstJob .jobDesc>li {
+            margin-bottom: 30px;
+        }
+        .lstJob .jobNavi {
+            padding-bottom: 45px;
+        }
+        .lstJob .jobNavi .btnApply {
+            font-size: 14px;
+        }
+        .lstJob .jobNavi .topJob {
+            right: inherit;
+            bottom: 0;
+            top: inherit;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 12px;
+        }
+        .lstJob>li {
+            margin-bottom: 65px;
+        }
+        .formBlock {
+            margin: 40px auto 125px;
+        }
+        #career .btnSubmit {
+            margin-top: 60px;
+        }
+        .libPhotos .libItem {
+            width: 48%;
+            margin-bottom: 20px;
+        }
+        #library .lstAnchor {
+            margin-bottom: 25px;
+        }
+        .youtube {
+            height: 130px !important;
+        }
+        .lstVideo li .title {
+            margin-top: 15px;
+            font-size: 13px;
+        }
+        .lstVideo li {
+            margin-bottom: 30px;
+        }
+        .popVideo {
+            width: 100%;
+        }
+        .lstDocumnet {
+            margin: 50px 0;
+        }
+        .lstDocumnet li {
+            width: 48%;
+            margin-bottom: 40px;
+        }
+        .lstDocumnet li .title {
+            font-size: 12px;
+        }
+        .lstDocumnet li .icon {
+            margin: 20px 0 15px;
+        }
+        .serviceWrap {
+            margin-top: 50px;
+        }
+        .lstSev li {
+            width: 48%;
+            margin-bottom: 40px;
+        }
+        .lstSev li .title {
+            font-size: 12px;
+            margin-top: 15px;
+        }
+        .lstSev li .title img {
+            height: 30px;
+        }
+        .lstSev li .icon {
+            margin: 20px 0 15px;
+        }
+        .wrapLogo .maxW {
+            padding: 0;
+        }
+        .titleService img {
+            height: 30px;
+            margin-right: 15px;
+        }
+        .titleService span {
+            width: calc(100% - 45px);
+            font-size: 18px;
+        }
+        .thumbService {
+            margin-top: 40px;
+        }
+        .thumbService img {
+            line-height: 1;
+            vertical-align: bottom;
+        }
+        .serviceContent {
+            margin-bottom: 65px;
+        }
+        .titleService {
+            margin: 30px 0 20px;
+        }
+        .serviceContent h4 {
+            font-size: 14px;
+        }
+        .aboutTop .h2_page {
+            margin-bottom: 30px;
+        }
+        #top .slideLogo {
+            margin: 75px 0;
+        }
+        .libPhotos .libItem .title {
+            font-size: 0;
+            padding-bottom: 0;
+        }
+        .formBlock .btnSubmit,
+        .btnReset {
+            width: 47%;
+        }
+        .formBlock .btnSubmit {
+            margin-left: 0;
+            margin-right: 5px;
+        }
+        .btnReset {
+            margin-right: 0;
+            margin-left: 5px;
+        }
+        #pageTop img {
+            width: 65px;
+        }
+    }
+    
+    @media only screen and (max-width: 320px) and (max-width: 480px) {}
